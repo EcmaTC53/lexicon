@@ -1,0 +1,21 @@
+<h1>ECMA TC-53 Lexica</h1>
+
+{{#lexica}}
+  <dl vocab="http://schema.org/">
+  {{#termset}}
+    <div typeof="{{@type}}">
+      <h2>
+        <a property="itemid" href="{{& @id}}"><span property="name">{{name}}</span></a>
+      </h2>
+    </div>
+  {{/termset}}
+  {{#terms}}
+    <div typeof="DefinedTerm">
+      <link property="url" href="{{& @id}}"/>
+      <dt property="name">{{& name}}</dt>
+      <dd property="description">{{& description}}{{#url}}<div class="outboundLink"><a href="{{url}}">{{url}}</a></div>{{/url}}</dd>
+      <link property="inDefinedTermSet" href="{{#termset}}{{& @id}}{{/termset}}" />
+    </div>
+  {{/terms}}
+  </dl>
+{{/lexica}}
