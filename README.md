@@ -1,7 +1,7 @@
 # TC-53 Lexicon
-To add to or edit any of the TC-53 lexica, open the appropriate file in the src directory. These src files are compact format HTML definition lists. You must have exactly one term per line. You are free to add HTML into either the term or definition, just keep it on one line.
+To add to or edit any of the TC-53 lexica, open the appropriate file in the src directory. These src files are compact format HTML definition lists. You are free to add HTML into either the term or definition.
 
-The HTML file has a ```.md``` extension so that it will render nicely on github, but it's really just an HTML file.
+The src file has a ```.md``` extension so that it will render nicely on github, but it's really just an HTML file.
 
 Don't sweat the compact HTML too much. It will be rendered as fully baked and valid HTML with RDFa tagging.
 
@@ -17,8 +17,8 @@ When you are done making edits to the src files, navigate to the root of the lex
 ```bash
 npx lexify
 ```
-This will generate the html and jsonld files and drop them into the docs folder. The docs folder will be automatically published to http://EcmaTC53.github.io/lexicon
+This will generate the html and jsonld files and drop them into the docs folder. The docs folder will be automatically published to http://EcmaTC53.github.io/lexicon when you push to the repository.
 
 You can modify the HTML output by editing ```template\lexicon.mustache```
 
-For more info on lexiconify visit [the repo](https://github.com/dtex/lexify)
+For more info on lexify visit [the repo](https://github.com/dtex/lexify)
