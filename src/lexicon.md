@@ -12,8 +12,8 @@
 <dt>I/O Class Pattern<dd>
 <dt>Library<dd>
 <dt>Maximally minimal<dd>
-<dt>Normative<dd>
-<dt>Protocol<dd>
+<dt url="https://developer.mozilla.org/en-US/docs/Glossary/Normative">Normative<dd>Things that have been standardized and must be followed as a rule.
+<dt url="https://developer.mozilla.org/en-US/docs/Glossary/Protocol">Protocol<dd>A system of rules that define how data is exchanged between systems.
 <dt>Provider<dd>
 <dt>Sleepability<dd>
 <dt>Third-Party Libraries<dd>
