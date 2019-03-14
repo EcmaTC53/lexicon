@@ -1,4 +1,4 @@
-<dl url="https://EcmaTC53.github.io/lexicon">ECMA TC-53 Lexicon - Hardware
+<dl url="https://EcmaTC53.github.io/lexicon">Hardware Definitions
 <dt>1-wire<dd>
 <dt>Actuator<dd>
 <dt>Address<dd>

@@ -1,4 +1,4 @@
-<dl url="https://EcmaTC53.github.io/lexicon">ECMA TC-53 Lexicon - Other Terms
+<dl url="https://EcmaTC53.github.io/lexicon">Other Terms
 <dt url="https://developer.mozilla.org/en-US/docs/Glossary/API">Application Programming Interface (API)
 <dd>A set of features and rules that exist inside a software program enabling interaction with it through software.
 <dt url="https://extensiblewebmanifesto.org/">Extensible Web Manifesto

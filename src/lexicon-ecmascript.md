@@ -1,4 +1,4 @@
-<dl url="https://EcmaTC53.github.io/lexicon">ECMA TC-53 Lexicon - EcmaScript
+<dl url="https://EcmaTC53.github.io/lexicon">EcmaScript Definitions
 <dt>Arguments<dd>
 <dt>Asynchronous<dd>
 <dt>Binding<dd>
