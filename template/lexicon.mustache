@@ -1,3 +1,20 @@
+<style>
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 18px;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 0 0 15px 0;
+  padding: 15px 0;
+  border: solid 1px #ccc;
+  border-width: 0 0 1px 0;
+}
+</style>
+
 <h1>ECMA TC-53 Lexica</h1>
 
 {{#lexica}}
@@ -5,7 +22,7 @@
   {{#termset}}
     <div typeof="{{@type}}">
       <h2>
-        <a property="itemid" href="{{& @id}}"><span property="name">{{name}}</span></a>
+        <span property="name">{{name}}</span>
       </h2>
     </div>
   {{/termset}}
@@ -13,7 +30,7 @@
     <div typeof="DefinedTerm">
       <link property="url" href="{{& @id}}"/>
       <dt property="name">{{& name}}</dt>
-      <dd property="description">{{& description}}{{#url}}<div class="outboundLink"><a href="{{url}}">{{url}}</a></div>{{/url}}</dd>
+      <dd property="description">{{& description}}{{#url}}<div class="outboundLink"><a href="{{url}}">Learn more about {{& name}}...</a></div>{{/url}}</dd>
       <link property="inDefinedTermSet" href="{{#termset}}{{& @id}}{{/termset}}" />
     </div>
   {{/terms}}
