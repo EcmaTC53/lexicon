@@ -2,16 +2,17 @@
 body {
   font-family: arial, helvetica, sans-serif;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
-
 dt {
   font-weight: bold;
 }
-dd {
-  margin: 0 0 15px 0;
-  padding: 15px 0;
-  border: solid 1px #ccc;
-  border-width: 0 0 1px 0;
+div[typeof="DefinedTerm"] {
+  padding: 15px;
+}
+div[typeof="DefinedTerm"]:nth-child(odd) {
+  background-color: #e5e5e5;
 }
 </style>
 
