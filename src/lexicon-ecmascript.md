@@ -31,7 +31,6 @@
 <dt url="https://developer.mozilla.org/en-US/docs/Glossary/JSON">JSON<dd>See JavaScript Object Notation
 <dt url="https://developer.mozilla.org/en-US/docs/Glossary/Method">Method<dd>A function which is a property of an object.
 <dt url="https://developer.mozilla.org/en-US/docs/Glossary/Mixin">Mixin<dd>A class or interface in which some or all of its methods and/or properties are unimplemented, requiring that another class or interface provide the missing implementations. Mixins extend a class.
-<dt>Module<dd>
 <dt url="https://developer.mozilla.org/en-US/docs/Glossary/Mutable">Mutable<dd>A variable that can be changed.
 <dt>Native bind<dd>
 <dt>Non-blocking I/O<dd>

@@ -2,16 +2,17 @@
 body {
   font-family: arial, helvetica, sans-serif;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
-
 dt {
   font-weight: bold;
 }
-dd {
-  margin: 0 0 15px 0;
-  padding: 15px 0;
-  border: solid 1px #ccc;
-  border-width: 0 0 1px 0;
+div[typeof="DefinedTerm"] {
+  padding: 15px;
+}
+div[typeof="DefinedTerm"]:nth-child(odd) {
+  background-color: #e5e5e5;
 }
 </style>
 
@@ -213,12 +214,6 @@ dd {
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Mixin"/>
       <dt property="name">Mixin</dt>
       <dd property="description">A class or interface in which some or all of its methods and/or properties are unimplemented, requiring that another class or interface provide the missing implementations. Mixins extend a class.<div class="outboundLink"><a href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Glossary&#x2F;Mixin">Learn more about Mixin...</a></div></dd>
-      <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
-    </div>
-    <div typeof="DefinedTerm">
-      <link property="url" href="https://EcmaTC53.github.io/lexicon#Module"/>
-      <dt property="name">Module</dt>
-      <dd property="description"></dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
@@ -627,51 +622,45 @@ dd {
       </h2>
     </div>
     <div typeof="DefinedTerm">
-      <link property="url" href="https://EcmaTC53.github.io/lexicon#Application (Apps for things)"/>
-      <dt property="name">Application (Apps for things)</dt>
-      <dd property="description">Sample definition</dd>
-      <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
-    </div>
-    <div typeof="DefinedTerm">
-      <link property="url" href="https://EcmaTC53.github.io/lexicon#Application developer"/>
-      <dt property="name">Application developer</dt>
-      <dd property="description"></dd>
+      <link property="url" href="https://EcmaTC53.github.io/lexicon#Application"/>
+      <dt property="name">Application</dt>
+      <dd property="description">In the context of TC-53, an application is a software program designed to perform a specific function on a specific device. Applications may import libraries and providers in the form of modules.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Built-in"/>
       <dt property="name">Built-in</dt>
-      <dd property="description"></dd>
+      <dd property="description">Built-ins are javascript modules that are bundled with the host.<div class="outboundLink"><a href="https:&#x2F;&#x2F;github.com&#x2F;tc39&#x2F;proposal-javascript-standard-library&#x2F;">Learn more about Built-in...</a></div></dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Data Accuracy"/>
       <dt property="name">Data Accuracy</dt>
-      <dd property="description"></dd>
+      <dd property="description">How close a data measurement is to it's theoretical expected output.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Data Provenance"/>
       <dt property="name">Data Provenance</dt>
-      <dd property="description"></dd>
+      <dd property="description">Knowing where data came from and how it arrived.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Data Timeliness"/>
       <dt property="name">Data Timeliness</dt>
-      <dd property="description"></dd>
+      <dd property="description">A measure of data timeliness. For example, how long did that "read" command take to execute? On embedded systems this could be a few ns. On a cloud based device it could be several seconds.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Data Trustworthiness"/>
       <dt property="name">Data Trustworthiness</dt>
-      <dd property="description"></dd>
+      <dd property="description">The combination of data provenance, timeliness an accuracy.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#External provider"/>
       <dt property="name">External provider</dt>
-      <dd property="description"></dd>
+      <dd property="description">A downloadable module that provides a surface API that matches the GPIO API specified by TC-53.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
@@ -681,45 +670,57 @@ dd {
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
-      <link property="url" href="https://EcmaTC53.github.io/lexicon#IOCP (The I/O Class Pattern)"/>
-      <dt property="name">IOCP (The I/O Class Pattern)</dt>
-      <dd property="description"></dd>
+      <link property="url" href="https://EcmaTC53.github.io/lexicon#IOCP"/>
+      <dt property="name">IOCP</dt>
+      <dd property="description">See I/O Class Pattern</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Implementor"/>
       <dt property="name">Implementor</dt>
-      <dd property="description"></dd>
+      <dd property="description">One who authors a provider.</dd>
+      <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
+    </div>
+    <div typeof="DefinedTerm">
+      <link property="url" href="https://EcmaTC53.github.io/lexicon#Internal provider"/>
+      <dt property="name">Internal provider</dt>
+      <dd property="description">A built-in module that provides a surface API that matches the GPIO API specified by TC-53.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Library"/>
       <dt property="name">Library</dt>
-      <dd property="description"></dd>
+      <dd property="description">A library provides a surface API that abstracts away the GPIO API. For example, an LED library could provide an API with the methods on(), off(), blink() and toggle() that abstract away an application developers need to interact directly with a digital IO instance.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
-      <link property="url" href="https://EcmaTC53.github.io/lexicon#Maximally minimal"/>
-      <dt property="name">Maximally minimal</dt>
+      <link property="url" href="https://EcmaTC53.github.io/lexicon#Maximally Minimal"/>
+      <dt property="name">Maximally Minimal</dt>
+      <dd property="description">The supposition that specifying a minimal API surface for base classes allows for greatest value realization and a reduced risk of painting oneself into a corner. A concept based on conversations around EcmaScript classes.</dd>
+      <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
+    </div>
+    <div typeof="DefinedTerm">
+      <link property="url" href="https://EcmaTC53.github.io/lexicon#Module"/>
+      <dt property="name">Module</dt>
       <dd property="description"></dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Normative"/>
       <dt property="name">Normative</dt>
-      <dd property="description"></dd>
+      <dd property="description">Things that have been standardized and must be followed as a rule.<div class="outboundLink"><a href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Glossary&#x2F;Normative">Learn more about Normative...</a></div></dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Protocol"/>
       <dt property="name">Protocol</dt>
-      <dd property="description"></dd>
+      <dd property="description">A system of rules that define how data is exchanged between systems.<div class="outboundLink"><a href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Glossary&#x2F;Protocol">Learn more about Protocol...</a></div></dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
       <link property="url" href="https://EcmaTC53.github.io/lexicon#Provider"/>
       <dt property="name">Provider</dt>
-      <dd property="description"></dd>
+      <dd property="description">A provider is a module that provides a surface API that matches the GPIO API specified by TC-53.</dd>
       <link property="inDefinedTermSet" href="https://EcmaTC53.github.io/lexicon" />
     </div>
     <div typeof="DefinedTerm">
