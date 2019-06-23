@@ -24,7 +24,7 @@
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Constructor">Constructor</a>
 <dd>The constructor initializes an object and can provide access to its private information. 
 <dt>Dependency Injection
-<dd>
+<dd>Creating and passing in an obect's dependencies rather that having that object create it's own dependencies.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript">ECMAScript</a>
 <dd>ECMAScript is the scripting language on which JavaScript is based.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation">Encapsulation</a>
@@ -34,29 +34,29 @@
 <dt>ES-Strict
 <dd>See "Strict Mode"
 <dt>Events
-<dd>
+<dd>An event which takes place on an object or element. Event targets can be configured to listen for certain events and call an Event Handler when the happen.
+<dt>Event Handler
+<dd>A function that is called when an event occurs.
 <dt>EventTarget
-<dd>
-<dt>Extends
-<dd>
+<dd>The element or object that emitted the event.
+<dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends">Extends</a>
+<dd>The extends keyword is used in class declarations or class expressions to create a class which is a child of another class.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Function">Function</a>
 <dd>A code snippet that can be called by other code or by itself.
-<dt>Harden (SES) Tamper-proof API surface
-<dd>
+<dt>Harden
+<dd>Tamper-proof an API surface (See SES).
 <dt>Host
-<dd>~~~All the built-in object + all the other objects that are added.~~~
+<dd>Provides the Javascript environment including the javascript engine, built-ins, and other objects.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Immutable">Immutable</a>
 <dd>An object whose content cannot be changed.
 <dt>Import
-<dd>
+<dd>The import statement will bring in bindings provided by external modules.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Instance">Instance</a>
 <dd>An object that has been created by a function constructor, class constructor, or function factory.
-<dt>Instantiate
-<dd>Create an Instance
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">Javascript Object Notation</a>
 <dd>A data-interchange format that closely resembles a subset of JavaScript syntax.
 <dt>Jobs
-<dd>
+<dd>A task to be executed asynchronously.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">JSON</a>
 <dd>See JavaScript Object Notation
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Method">Method</a>
@@ -65,10 +65,10 @@
 <dd>A class or interface in which some or all of its methods and/or properties are unimplemented, requiring that another class or interface provide the missing implementations. Mixins extend a class.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Mutable">Mutable</a>
 <dd>A variable that can be changed.
-<dt>Native bind
-<dd>
-<dt>Non-blocking I/O
-<dd>
+<dt>Native bindings
+<dd>Native bindings allow Ecmascript to call native code.
+<dt>Non-blocking
+<dd>Code that does not block execution.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Parameter">Parameter</a>
 <dd>A named variable passed into a function.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism">Polymorphism</a>
@@ -76,15 +76,15 @@
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Promise">Promise</a>
 <dd>An object that's returned by a function that has not yet completed its work. 
 <dt>Reflection
-<dd>
+<dd>The ability of a program to inspect on modify its own behavior.
 <dt>Self Hosted
-<dd>
-<dt>Secure ECMAScript
-<dd>
+<dd>~~~ Need help with this from tc53-2018-019 (Boston meeting) ~~~
+<dt><a href="https://github.com/Agoric/SES">Secure EcmaScript</a>
+<dd>a frozen environment that removes programs abilities to interfere with each other.
 <dt>SES
 <dd>See Secure ECMAScript
 <dt>Single-threaded
-<dd>
+<dd>One command is processed at a time.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">Strict Mode</a>
 <dd>A restricted variant of EcmaScript.
 <dt>Subclass
@@ -92,7 +92,7 @@
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Synchronous">Synchronous</a>
 <dd>Real-time communication where each party receives, processes and replies to messages instantly.
 <dt>Tasks (W3C Tasks)
-<dd>
+<dd>A set of instructions queued onto the event loop for exectution.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this">This</a>
 <dd>The JavaScript context object in which the current code is executing.
 <dt>Thread
