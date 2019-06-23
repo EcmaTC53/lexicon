@@ -30,8 +30,8 @@ div[typeof="DefinedTerm"]:nth-child(odd) {
   {{#terms}}
     <div typeof="DefinedTerm">
       <link property="url" href="{{& @id}}"/>
-      <dt property="name">{{& name}}</dt>
-      <dd property="description">{{& description}}{{#url}}<div class="outboundLink"><a href="{{url}}">Learn more about {{& name}}...</a></div>{{/url}}</dd>
+      <dt property="name"><a href="{{url}}">{{& name}}</a></dt>
+      <dd property="description">{{& description}}</dd>
       <link property="inDefinedTermSet" href="{{#termset}}{{& @id}}{{/termset}}" />
     </div>
   {{/terms}}
