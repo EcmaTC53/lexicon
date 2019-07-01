@@ -2,35 +2,33 @@
 body {
   font-family: arial, helvetica, sans-serif;
   font-size: 18px;
-  margin: 0;
+  margin: 24px;
   padding: 0;
 }
 dt {
   font-weight: bold;
 }
-div[typeof="DefinedTerm"] {
-  padding: 15px;
+dd {
+  margin-inline-start: 0;
 }
-div[typeof="DefinedTerm"]:nth-child(odd) {
-  background-color: #e5e5e5;
+div[typeof="DefinedTerm"] {
+  padding: 15px 0;
 }
 </style>
-
-<h1>ECMA TC-53 Lexica</h1>
 
 {{#lexica}}
   <dl vocab="http://schema.org/">
   {{#termset}}
-    <div typeof="{{@type}}">
-      <h2>
+    <div typeof="DefinedTermSet Consortium Project">
+      <h1>
         <span property="name">{{name}}</span>
-      </h2>
+      </h1>
     </div>
   {{/termset}}
   {{#terms}}
     <div typeof="DefinedTerm">
       <link property="url" href="{{& @id}}"/>
-      <dt property="name"><a href="{{url}}">{{& name}}</a></dt>
+      <dt property="name"><a href="{{& url}}">{{& name}}</a></dt>
       <dd property="description">{{& description}}</dd>
       <link property="inDefinedTermSet" href="{{#termset}}{{& @id}}{{/termset}}" />
     </div>
