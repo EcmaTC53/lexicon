@@ -67,6 +67,8 @@
 <dd>Capable of having just two states, high and low.
 <dt>Driver
 <dd>Software or a circuit used to control another decice.
+<dt>Duty cycle
+<dd>The percentage of time that a PWM signal is high or on.
 <dt>Embedded Device
 <dd>A single purpose computing system wholly contained within another device or product.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation">Encapsulation</a>
@@ -121,12 +123,10 @@
 <dd>An interrupt is an external signal that indicates some process should be executed immediately.
 <dt><a href="https://gist.github.com/phoddie/166c9c17b2f31d0beda9f2410a219268">I/O Class Pattern</a> (IOCP)
 <dd>The I/O Class Pattern describes a logical superclass for various hardware interface types (Digital, Analog, Serial, I2C, etc).
-<dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">Javascript Object Notation</a>
+<dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">Javascript Object Notation (JSON)</a>
 <dd>A data-interchange format that closely resembles a subset of JavaScript syntax.
 <dt>Job
 <dd>A task to be executed asynchronously.
-<dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">JSON</a>
-<dd>See JavaScript Object Notation
 <dt><a href="https://blog.senr.io/blog/jtag-explained">JTAG</a>
 <dd>JTAG is a common hardware interface that provides your computer with a way to communicate directly with the chips on a board.
 <dt>Library
@@ -135,6 +135,8 @@
 <dd>The supposition that specifying a minimal API surface for base classes allows for greatest value realization and a reduced risk of painting oneself into a corner. A concept based on conversations around EcmaScript classes.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Method">Method</a>
 <dd>A function which is a property of an object.
+<dt>Microcontroller (MCU)
+<dd>A Microcontroller is a single integrated circuit with one or more CPUs, memory and programmable input/output.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Mixin">Mixin</a>
 <dd>A class or interface in which some or all of its methods and/or properties are unimplemented, requiring that another class or interface provide the missing implementations. Mixins extend a class.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import">Module</a>
@@ -151,6 +153,10 @@
 <dd>A named variable passed into a function.
 <dt>Partial Evaluation
 <dd>When some arguments to a pure function are known at compile time the compiler can create more highly optimized code vs compilation at run time.
+<dt>Pin bank  
+<dd>A group of input/output pins.
+<dt>Polling
+<dd>When code periodically checks the state of an input to see if a change has occurred.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism">Polymorphism</a>
 <dd>The presentation of one interface for multiple data types.
 <dt>Precompile
@@ -160,16 +166,34 @@
 <dd>A system of rules that define how data is exchanged between systems.
 <dt>Provider
 <dd>A provider is a module that provides a surface API that matches the GPIO API specified by TC-53.
+<dt>Pull up/Pull down resisitor
+<dd>A resistor used to ensure a known state for a signal. In an open circuit (eg a switch that is off, or button that is not pressed) half the circuit is in an indeterminate or "floating" state. A pull up or pull down resistor can address that.
+<dt>Pulse Width Modulation (PWM)
+<dd>Pulse width modulation is the regulation of a digital signal between on and off (duty cycle) over a fixed period of time (frequency) to create an averaged value voltage.
 <dt>Reflection
 <dd>The ability of a program to inspect or modify its own behavior.
+<dt>Register
+<dd>Locations in a device's memory which can be written to or read from. These memory locations may contain configuration settings or current state of the device.
 <dt>Self Hosted
 <dd>~~~ Need help with this from tc53-2018-019 (Boston meeting) ~~~
 <dt><a href="https://github.com/Agoric/SES">Secure EcmaScript</a>
 <dd>a frozen environment that removes programs abilities to interfere with each other.
+<dt>Sensor
+<dd>A device that detects and responds to some type of input from the physical environment. 
+<dt>Serial
+<dd>A bus that communicates using one bit at a time. RS-232, I2C and SPI are all examples of serial communication.
+<dt>Serial Peripheral Interface (SPI)
+<dd>A synchronous serial communication protocol that support full duplex communication and multiple devices on a single bus.
+ <dt>Servomotor (Servo)
+<dd>A particular form of servomechanism that uses a potnetiometer or encoder to precisely position a motor.
+<dt>Single Board Computer (SBC)
+<dd>A complete computer, including microprocessor, memory and I/O, built on a single circuit board. SBC's are usually designed to consume low power and offer a compact form factor.
 <dt>Single-threaded
 <dd>One command is processed at a time.
 <dt>Sleep
 <dd>Sleep mode in embeddable systems is also known as low-power or power-down mode. Current data is retained, the core processor is still running and the system can respond to "wake" events on interrupt or other I/O.
+<dt>Stepper Motor
+<dd>An electric motor that moves a set number of degrees per "step", a step being a change in the voltage applied to the devices coils (usually two). 
 <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">Strict Mode</a>
 <dd>A restricted variant of EcmaScript.
 <dt>Subclass
@@ -186,6 +210,8 @@
 <dd>An execution context.
 <dt>Unit Tests
 <dd>Software testing against individual units of source code.
+<dt>Universal Asynchronous Receiver/Transmitter (UART)
+<dd>A device that controls the interface to attached serial devices.
 <dt>W3C Sensor API
 <dd>See "Generic Sensor API"
 <dt><a href="https://iot.mozilla.org/wot/">Web Things</a>
