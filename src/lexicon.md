@@ -15,6 +15,8 @@
 <dd>A set of features and rules that exist inside a software program enabling interaction with it through software.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments">Arguments</a>
 <dd>An Array-like object accessible inside functions that contains the values of the arguments passed to that function.
+<dt><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer">ArrayBuffer</a>
+<dd>An object used to represent a generic, fixed-length raw binary data buffer.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Asynchronous">Asynchronous</a>
 <dd>A communication environment where each party receives and processes messages when possible rather than immediately.
 <dt>Baud Rate
@@ -200,6 +202,8 @@
 <dd>A class that inherits the attributes of another class.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Synchronous">Synchronous</a>
 <dd>Real-time communication where each party receives, processes and replies to messages instantly.
+<dt><a href="http://smbus.org/specs/SMBus_3_0_20141220.pdf">System Management Bus (SMBus)</a>
+<dd>A simple 2-wire bus derived from I2C for lightweight communication.
 <dt>Tasks (W3C Tasks)
 <dd>A set of instructions queued onto the event loop for exectution.
 <dt>Third-Party Libraries
@@ -212,6 +216,8 @@
 <dd>Software testing against individual units of source code.
 <dt>Universal Asynchronous Receiver/Transmitter (UART)
 <dd>A device that controls the interface to attached serial devices.
+<dd><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap">WeakMap</a>
+<dd>A collection of key/value pairs in which the keys are objects only and the values can be arbitrary values. If there are no other references to the key object it will be released to the the garbage collector.
 <dt>W3C Sensor API
 <dd>See "Generic Sensor API"
 <dt><a href="https://iot.mozilla.org/wot/">Web Things</a>
