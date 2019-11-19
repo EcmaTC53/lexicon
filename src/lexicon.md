@@ -1,6 +1,6 @@
 <dl url="https://EcmaTC53.github.io/lexicon">ECMA TC-53 Terms
 <dt><a href="https://www.maximintegrated.com/en/app-notes/index.mvp/id/1796">1-wire</a>
-<dd>a serial protocol using a single data line plus ground reference for communication.
+<dd>A serial protocol using a single data line plus ground reference for communication.
 <dt>Actuator
 <dd>A device that is reponsible for moving some part of a machine (eg a servo or motor).
 <dt>Address
@@ -34,7 +34,7 @@
 <dt>Button
 <dd>A mechanism that completes an electrical circuit when pressed.
 <dt>Byte
-<dd>A unit of data consisting of 8 binary bits
+<dd>A unit of data consisting of 8 bits.
 <dt>Callback
 <dd>A callback function is passed as an argument to another function and is exectued when some process is completed.
 <dt>CANbus
@@ -102,9 +102,9 @@
 <dt>Harden
 <dd>Tamper-proof an API surface (See SES).
 <dt>Hardware Abstraction Layer (HAL)
-<dd>A software layer between the OS or host and the hardware that provides a standard interface for interacting with hardware components.
+<dd>A software layer between the OS and the hardware that provides a standard interface for writing device-independent applications.
 <dt>Host
-<dd>Provides the Javascript environment including the javascript engine, built-ins, and other objects.
+<dd>Provides the JavaScript runtime including the JavaScript engine, built-ins, and other objects.
 <dt><a href="https://www.i2c-bus.org/">I2C</a>
 <dd>A communication bus standard that requires two lines and supports multiple, addressable devices on the same connection.
 <dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/Immutable">Immutable</a>
@@ -125,7 +125,7 @@
 <dd>An interrupt is an external signal that indicates some process should be executed immediately.
 <dt><a href="https://gist.github.com/phoddie/166c9c17b2f31d0beda9f2410a219268">I/O Class Pattern</a> (IOCP)
 <dd>The I/O Class Pattern describes a logical superclass for various hardware interface types (Digital, Analog, Serial, I2C, etc).
-<dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">Javascript Object Notation (JSON)</a>
+<dt><a href="https://developer.mozilla.org/en-US/docs/Glossary/JSON">JavaScript Object Notation (JSON)</a>
 <dd>A data-interchange format that closely resembles a subset of JavaScript syntax.
 <dt>Job
 <dd>A task to be executed asynchronously.
@@ -218,9 +218,9 @@
 <dd>A device that controls the interface to attached serial devices.
 <dd><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap">WeakMap</a>
 <dd>A collection of key/value pairs in which the keys are objects only and the values can be arbitrary values. If there are no other references to the key object it will be released to the the garbage collector.
-<dt>W3C Sensor API
+<dt>W3C Sensor API</a>
 <dd>See "Generic Sensor API"
 <dt><a href="https://iot.mozilla.org/wot/">Web Things</a>
-<dd>A common data model and API for the Web of Things
+<dd>A common data model and API for the Web of Things.
 <dt>Web Worker
 <dd>An object the can run code in a seperate thread or execution context.
