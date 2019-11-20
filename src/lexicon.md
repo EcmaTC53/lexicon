@@ -218,7 +218,7 @@
 <dd>A device that controls the interface to attached serial devices.
 <dd><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap">WeakMap</a>
 <dd>A collection of key/value pairs in which the keys are objects only and the values can be arbitrary values. If there are no other references to the key object it will be released to the the garbage collector.
-<dt>W3C Sensor API</a>
+<dt>W3C Sensor API
 <dd>See "Generic Sensor API"
 <dt><a href="https://iot.mozilla.org/wot/">Web Things</a>
 <dd>A common data model and API for the Web of Things.
